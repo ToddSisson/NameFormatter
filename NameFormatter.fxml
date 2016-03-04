@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="277.0" prefWidth="307.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="num3.NameFormatterController">
+   <children>
+      <Label fx:id="firstNameLabel" layoutX="88.0" layoutY="35.0" text="First" />
+      <Label fx:id="middleNameLabel" layoutX="147.0" layoutY="35.0" text="Middle" />
+      <Label fx:id="lastNameLabel" layoutX="221.0" layoutY="35.0" text="Last" />
+      <Label fx:id="titleLabel" layoutX="34.0" layoutY="35.0" text="Title" />
+      <TextField fx:id="firstNameTextBox" layoutX="69.0" layoutY="59.0" prefHeight="25.0" prefWidth="61.0" />
+      <TextField fx:id="middleNameTextBox" layoutX="135.0" layoutY="59.0" prefHeight="25.0" prefWidth="61.0" />
+      <TextField fx:id="lastNameTextBox" layoutX="201.0" layoutY="59.0" prefHeight="25.0" prefWidth="61.0" />
+      <TextField fx:id="titleTextBox" layoutX="27.0" layoutY="59.0" prefHeight="25.0" prefWidth="37.0" />
+      <Button fx:id="button1" layoutX="59.0" layoutY="124.0" mnemonicParsing="false" onAction="#name1" text="#1" />
+      <Button fx:id="button2" layoutX="134.0" layoutY="124.0" mnemonicParsing="false" onAction="#name2" text="#2" />
+      <Button fx:id="button3" layoutX="208.0" layoutY="124.0" mnemonicParsing="false" onAction="#name3" text="#3" />
+      <Button fx:id="button4" layoutX="60.0" layoutY="161.0" mnemonicParsing="false" onAction="#name4" text="#4" />
+      <Button fx:id="button5" layoutX="135.0" layoutY="161.0" mnemonicParsing="false" onAction="#name5" text="#5" />
+      <Button fx:id="button6" layoutX="209.0" layoutY="161.0" mnemonicParsing="false" onAction="#name6" text="#6" />
+      <Label fx:id="formatLabel" layoutX="108.0" layoutY="97.0" text="Name Formats" />
+      <Label fx:id="outputLabel" alignment="TOP_CENTER" layoutX="49.0" layoutY="218.0" prefHeight="17.0" prefWidth="190.0" textAlignment="CENTER" />
+   </children>
+</AnchorPane>
